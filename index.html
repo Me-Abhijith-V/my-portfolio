@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="loading">
+    <!-- Loader -->
+    <div class="loader">
+        <span>Loading...</span>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio</a>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero reveal">
+        <div class="hero-content">
+            <h1 class="fade-in">Hello, I'm <span class="typing-container"><span class="typing-text">Abhijith V</span></span></h1>
+            <h2 class="fade-in delay-1">Web Developer & Designer</h2>
+            <p class="fade-in delay-2">I create stunning digital experiences with a focus on user-centered design, clean code, and cutting-edge technologies.</p>
+            <a href="#contact" class="cta-btn fade-in delay-3">Get In Touch</a>
+        </div>
+        <div class="hero-bg"></div>
+        <div class="particles"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p>Get to know more about me and what drives my passion for development</p>
+        </div>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="assets/img/abhijith.jpg" alt="About Me">
+            </div>
+            <div class="about-text">
+                <h3>Who am I?</h3>
+                <p>I'm a passionate web developer with a strong foundation in front-end and back-end technologies. With over 1 year of experience, I've had the privilege of working on diverse projects that have sharpened my skills and deepened my understanding of what makes great user experiences.</p>
+                <p>I believe in writing clean, maintainable code and creating intuitive, accessible interfaces that delight users. My approach combines technical expertise with creative problem-solving to deliver solutions that exceed expectations.</p>
+                <p>When I'm not coding, you'll find me exploring the latest tech trends, contributing to open-source projects, or enjoying outdoor adventures to recharge my creative energy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills reveal">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <p>The technologies and tools I work with</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <div class="skill-name">HTML5</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <div class="skill-name">CSS3</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <div class="skill-name">JavaScript</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                <div class="skill-name">Python</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                <div class="skill-name">Git</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="skill-name">Github</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                <div class="skill-name">Figma</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-wordpress"></i></div>
+                <div class="skill-name">WordPress</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <div class="skill-name">MySql</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-sass"></i></div>
+                <div class="skill-name">Sass</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                <div class="skill-name">React</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                <div class="skill-name">Node.js</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                <div class="skill-name">Express</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education reveal">
+        <div class="section-header">
+            <h2>Education</h2>
+            <p>My academic journey and qualifications</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2022 - 2025</span>
+                    <h3 class="timeline-title">Bachelor of Computer Science</h3>
+                    <p class="timeline-desc">Kerala University</p>
+                    <p>Developed strong foundation in programming languages, software development methodologies, etc.  Gained practical experience through academic projects and internships.  Eager to apply learned skills in a challenging role.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2024</span>
+                    <h3 class="timeline-title">Career Essentials in Cybersecurity</h3>
+                    <p class="timeline-desc"> Microsoft and LinkedIn</p>
+                    <p>Engaged in in-depth learning on key Cybersecurity topics, including Information Security Awareness and Threat & Vulnerability Management, through a structured curriculum provided by Microsoft and LinkedIn Learning. This learning experience enhanced my understanding of critical cybersecurity practices.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2020-2022</span>
+                    <h3 class="timeline-title">Higher Secondary Education</h3>
+                    <p class="timeline-desc">State Syllabus</p>
+                    <p></p>
+                </div>
+            </div>
+            <!-- <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2021</span>
+                    <h3 class="timeline-title">AWS Certified Developer</h3>
+                    <p class="timeline-desc">Amazon Web Services</p>
+                    <p>Professional certification in cloud architecture and deployment strategies.</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience reveal">
+        <div class="section-header">
+            <h2>Work Experience</h2>
+            <p>Places I've worked and roles I've held</p>
+        </div>
+        <div class="experience-container">
+            <!-- <div class="experience-item">
+                <h3 class="experience-title">Senior Front-end Developer</h3>
+                <p class="experience-company">TechCorp Inc.</p>
+                <p class="experience-duration">2021 - Present</p>
+                <ul class="experience-desc">
+                    <li>Lead a team of 5 developers in creating responsive web applications</li>
+                    <li>Implement modern JavaScript frameworks like React and Vue.js</li>
+                    <li>Optimize website performance and implement CI/CD pipelines</li>
+                    <li>Collaborate with UI/UX designers to implement pixel-perfect designs</li>
+                </ul>
+            </div> -->
+            <div class="experience-item">
+                <h3 class="experience-title">Teaching Assistant</h3>
+                <p class="experience-company">Computer centre</p>
+                <p class="experience-duration">2022 - 2023</p>
+                <ul class="experience-desc">
+                    <li>Led weekly lab sessions for a class of 30 students.</li>
+                    <li>Provided one-on-one support to students struggling with course material.</li>
+                    <li>Developed and presented supplementary learning materials.</li>
+                </ul>
+            </div>
+            <!-- <div class="experience-item">
+                <h3 class="experience-title">Front-end Developer</h3>
+                <p class="experience-company">CodeWave Solutions</p>
+                <p class="experience-duration">2019 - 2021</p>
+                <ul class="experience-desc">
+                    <li>Developed scalable and modular components using React and Redux</li>
+                    <li>Integrated RESTful APIs and GraphQL endpoints</li>
+                    <li>Improved site performance by optimizing assets and reducing load times</li>
+                </ul>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects reveal">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <p>Showcase of my recent work</p>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/img/imfn.jpg" height="200px" width="340px">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Integrated Medical <br> Facilities Network</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Django</span>
+                        <span class="project-tag">Html</span>
+                        <span class="project-tag">Sqlite3</span>
+                    </div>
+                    <p class="project-desc">This network centralizes patient medical records, enabling quick access across facilities. It also provides tools for easy appointment scheduling and remote consultations, prioritizing patient convenience and improving overall care coordination.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Me-Abhijith-V/IMFN" class="project-link live-link" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Me-Abhijith-V/IMFN" class="project-link code-link" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/img/axez-web-chatbot.jpg" height="200px" width="340px">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Web Based Chatbot <br> Using OpenAI API</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Flask</span>
+                        <span class="project-tag">Html</span>
+                    </div>
+                    <p class="project-desc">A conversational AI application built with Python and Flask, powered by the OpenAI API. Axez Chat Bot is a web-based chatbot that provides intelligent and engaging conversations. It utilizes the OpenAI API for natural language processing and generation.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Me-Abhijith-V/axez-chatbot-api" class="project-link live-link" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Me-Abhijith-V/axez-chatbot-api" class="project-link code-link" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/img/tel-chatbot.png" height="200px" width="340px">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Telegram ChatBot <br> Using OpenAI API</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">python-telegram-bot</span>
+                    </div>
+                    <p class="project-desc">This project is a Telegram chatbot that utilizes the OpenAI API to provide intelligent and conversational responses to user messages. It's built using Python, the python-telegram-bot library, and integrates seamlessly with OpenAI's GPT models.</p>
+                    <div class="project-links">
+                        <a href="https://telegram.me/axez_chat_bot" class="project-link live-link" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Me-Abhijith-V/telagram-axez-chatbot-api" class="project-link code-link" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/img/hms.jpg" height="200px" width="340px">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Hospital Management <br> System</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Php</span>
+                        <span class="project-tag">Css</span>
+                        <span class="project-tag">Js</span>
+
+                    </div>
+                    <p class="project-desc">Developed a comprehensive Hospital Management System using PHP, designed for single-hospital use. This system streamlines hospital operations by providing integrated modules for appointment booking, electronic prescription management, and detailed patient complaint tracking.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Me-Abhijith-V/hms" class="project-link live-link" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Me-Abhijith-V/hms" class="project-link code-link" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <a href="https://github.com/Me-Abhijith-V?tab=repositories" target="_blank" class="submit-btn" style="text-decoration: none;">See All Projects</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal"> 
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or inquiries</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p>me.abhijith18@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p>+91 9400174100</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="contact-text">
+                        <h3>Location</h3>
+                        <p>Varkala, Tvm <br> Kerala</p>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Social Media Links -->
+    <div class="social-links">
+        <a href="https://github.com/Me-Abhijith-V" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/abhijith-v-5a08aa260/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/_a_b_h_i_jith" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_a_b_h_i_jith/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">Copyright © 2025 Abhijith V.  All Rights Reserved.  Website Design by Abhijith V.</p>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("pyG0kJ1zfSb91YmsY");
+        })();
+    </script>
+</body>
+</html>
