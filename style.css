@@ -82,6 +82,31 @@ section {
     margin: 5px;
     transition: var(--transition);
 }
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Show burger menu on mobile */
+@media screen and (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+
+    .nav-links li {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .nav-links.active li {
+        opacity: 1;
+    }
+}
+
 .theme-toggle {
     background: none;
     border: none;

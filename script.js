@@ -8,12 +8,26 @@ themeToggle.addEventListener('click', () => {
     icon.classList.toggle('fa-sun');
 });
 
-// Burger Menu Functionality
+// Burger Menu Toggle Functionality
 const burger = document.querySelector('.burger');
 const navLinks = document.querySelector('.nav-links');
+
 burger.addEventListener('click', () => {
+    // Toggle the 'active' class on the nav-links
     navLinks.classList.toggle('active');
+
+    // Animate the burger icon
     burger.classList.toggle('toggle');
+});
+
+// Hide the mobile menu when a link is clicked
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) { // Check if the screen width is for mobile
+            navLinks.classList.remove('active'); // Hide the menu
+            burger.classList.remove('toggle'); // Reset the burger icon
+        }
+    });
 });
 
 // Scroll Reveal Animation
